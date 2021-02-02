@@ -16,7 +16,7 @@ of `kubectl create/apply` or `helm install/upgrade`.
 
 In a traditional CI/CD pipeline, CD is an implementation extension powered by the continuous integration tooling
 to promote build artifacts to production. In the GitOps pipeline model, any change to production must be committed
-in source control (preferable via a pull request) prior to being applied on the cluster.
+in source control (preferably via a pull request) prior to being applied on the cluster.
 If the entire production state is under version control and described in a single Git repository,
 when disaster strikes, the whole infrastructure can be quickly restored without rerunning the CI pipelines.
 
@@ -44,7 +44,7 @@ Docker Hub as the container registry,
 
 Progressive delivery is an umbrella term for advanced deployment patterns like canaries, feature flags and A/B testing.
 Progressive delivery techniques are used to reduce the risk of introducing a new software version in production
-by giving app developers and SRE teams a fine-grained control over the blast radius.
+by giving app developers and SRE teams fine-grained control over the blast radius.
 
 ::: tip Canary release
 
